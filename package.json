@@ -1,0 +1,31 @@
+{
+  "name": "ractive-spa-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "webpack": "3.10.0",
+    "webpack-hot-middleware": "2.21.0",
+    "style-loader": "0.19.1",
+    "css-loader": "0.28.8",
+    "extract-text-webpack-plugin":"3.0.2"
+  },
+  "dependencies": {
+    "ractive": "0.9.11",
+    "ractive-loader":"0.5.6",
+    "ractive-datetime": "1.0.0",
+    "ractivejs-router": "0.1.2",
+    "jquery": "3.2.1",
+    "bootstrap":"4.0.0-alpha.6",
+    "tether": "1.4.3"
+  }
+}
